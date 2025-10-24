@@ -6,10 +6,6 @@
 *.out
 *.synctex.gz
 
-# Compiled documents
-*.pdf
-*.ps
-
 # Other
 .DS_Store
 *~
