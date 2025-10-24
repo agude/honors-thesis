@@ -1,0 +1,90 @@
+
+
+*******************************************************************************
+Thu May 22 10:12:05 2008
+
+
+FIT:    data read from 'beta_fit.dat'
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 15.4499           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.748287
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 5.07632
+rel. change during last iteration : -1.68471e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.516889
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.267175
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.194596         +/- 0.1328       (68.22%)
+b               = 1.76343          +/- 0.3835       (21.75%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.527  1.000 
+
+
+*******************************************************************************
+Thu May 22 10:20:15 2008
+
+
+FIT:    data read from 'beta_fit.dat'
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 2.97464           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 0.855977
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.76735
+rel. change during last iteration : -1.93455e-06
+
+degrees of freedom (ndf) : 3
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.960442
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.92245
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.08421          +/- 0.7962       (73.43%)
+b               = 0.605127         +/- 1.167        (192.9%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.842  1.000 
