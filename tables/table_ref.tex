@@ -1,0 +1,71 @@
+% Built from SN_residual_fraction.dat
+%% The values (usually only l,r and c) in the last part of
+%% \begin{deluxetable}{} command tell LaTeX how many columns
+%% there are and how to align them.
+\begin{deluxetable}{ccccc}
+
+%% Keep a portrait orientation
+
+%% Over-ride the default font size
+%% Use Default (12pt)
+
+%% Use \tablewidth{?pt} to over-ride the default table width.
+%% If you are unhappy with the default look at the end of the
+%% *.log file to see what the default was set at before adjusting
+%% this value.
+
+%% This is the title of the table.
+\tablecaption{Data Sources}
+
+%% This command over-rides LaTeX's natural table count
+%% and replaces it with this number.  LaTeX will increment 
+%% all other tables after this table based on this number
+\tablenum{3}
+
+%% The \tablehead gives provides the column headers.  It
+%% is currently set up so that the column labels are on the
+%% top line and the units surrounded by ()s are in the 
+%% bottom line.  You may add more header information by writing
+%% another line between these lines. For each column that requries
+%% extra information be sure to include a \colhead{text} command
+%% and remember to end any extra lines with \\ and include the 
+%% correct number of &s.
+\tablehead{\colhead{Supernova} & \colhead{Spectrum} & \colhead{Light Curve} \\ 
+\colhead{} & \colhead{Source} & \colhead{Source} } 
+
+%% All data must appear between the \startdata and \enddata commands
+\startdata
+SN1991T & \citeauthor{nugent02a} \citeyear{nugent02a} & 
+SN1991bg & \citeauthor{gomez96a} \citeyear{gomez96a}& 
+SN1997dt & matheson08 & 
+SN1998V & matheson08 & 
+SN1998aq & matheson08 & 
+SN1998bp & matheson08 & 
+SN1998de & matheson08 & 
+SN1998dh & matheson08 & 
+SN1998ec & matheson08 & 
+SN1998eg & matheson08 & 
+SN1998es & matheson08 & 
+SN1999aa & matheson08 & 
+SN1999ac & matheson08 & 
+SN1999cc & matheson08 &
+SN1999cl & matheson08 &
+SN1999dq & matheson08 &
+SN1999ej & matheson08 &
+SN1999gd & matheson08 &
+SN1999gp & matheson08 &
+SN2000cf & matheson08 &
+SN2000cx & matheson08 &
+SN2000dk & matheson08 &
+SN2000fa & matheson08 &
+\enddata
+
+%% Include any \tablenotetext{key}{text}, \tablerefs{ref list},
+%% or \tablecomments{text} between the \enddata and 
+%% \end{deluxetable} commands
+
+%% No \tablecomments indicated
+
+%% No \tablerefs indicated
+
+\end{deluxetable}

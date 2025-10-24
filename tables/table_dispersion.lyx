@@ -1,0 +1,719 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\clearpage
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{deluxetable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ccccccccc
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablecaption
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Distance From The Hubble Line In Magnitudes
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablenum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+6
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablehead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Supernova
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Uncorrected
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+C
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+S
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+CS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+W1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+W2
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+W3
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+CSW1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+startdata
+\end_layout
+
+\end_inset
+
+ SN1997dt & 2.734
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 2.537
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.716 & 0.519 & 1.169
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.487 & -0.062 & 1.185
+\begin_inset Formula $^{*}$
+\end_inset
+
+ 
+\newline
+ SN1998V & 0.074 & 0.010 & -0.054 & -0.118 & -0.294 & -1.130
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -1.446
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -0.217 
+\newline
+ SN1998aq & 0.286 & 0.123 & 0.732 & 0.569 & 0.227 & -0.448 & -0.747 & 0.272 
+\newline
+ SN1998bp & 1.503 & 0.962 & 0.530 & -0.012 & 0.389 & -0.536 & -0.476 & 0.367 
+\newline
+ SN1998de & 2.678
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 2.275
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.535 & 0.132 & 0.880 & 0.305 & 0.590 & 0.947 
+\newline
+ SN1998dh & 0.628 & 0.414 & 0.158 & -0.055 & -0.001 & -1.256
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -1.653
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.013 
+\newline
+ SN1998ec & 0.741 & 0.700 & 0.111 & 0.070 & -0.190 & -0.973 & -1.581
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.331 
+\newline
+ SN1998eg & 0.424 & 0.236 & 0.282 & 0.094 & 0.180 & -0.937 & -1.133 & -0.084 
+\newline
+ SN1998es & 0.093 & 0.191 & -0.154 & -0.055 & -0.297 & -0.758 & -1.139 & -0.140 
+\newline
+ SN1999aa & -0.022 & 0.074 & 0.119 & 0.215 & -0.054 & -0.497 & -0.890 & -0.099 
+\newline
+ SN1999ac & 0.374 & 0.351 & -0.030 & -0.054 & -0.027 & -1.078 & -1.239 & -0.132 
+\newline
+ SN1999cc & 0.484 & 0.098 & 0.328 & -0.058 & 0.013 & -1.068 & -1.581
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -0.092 
+\newline
+ SN1999cl & 1.339 & 1.161 & -2.992
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -3.169
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -1.346
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -2.069
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -3.100
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -1.787
+\begin_inset Formula $^{*}$
+\end_inset
+
+ 
+\newline
+ SN1999dq & -0.071 & 0.044 & -0.493 & -0.378 & -0.530 & -0.884 & -1.251 & -0.418 
+\newline
+ SN1999ej & 0.964 & 0.610 & 0.826 & 0.473 & 0.356 & -0.373 & -0.773 & 0.527 
+\newline
+ SN1999gd & 1.638
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 1.506
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -0.058 & -0.190 & 0.168 & -0.749 & -1.141 & 0.416 
+\newline
+ SN1999gp & 0.134 & 0.475 & -0.088 & 0.252 & 0.009 & -0.418 & -0.840 & -0.001 
+\newline
+ SN2000cf & 0.381 & 0.208 & 0.346 & 0.173 & 0.180 & -0.998 & -0.984 & -0.033 
+\newline
+ SN2000cx & 0.077 & -0.269 & 0.321 & -0.026 & 0.049 & 0.201 & -0.164 & -0.342 
+\newline
+ SN2000dk & 0.471 & -0.017 & 0.230 & -0.258 & -0.145 & -1.379
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -1.433
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -0.198 
+\newline
+ SN2000fa & 0.307 & 0.236 & 0.031 & -0.041 & -0.100 & -0.978 & -1.441
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & -0.114 
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+hline
+\end_layout
+
+\end_inset
+
+ Dispersion & 0.779 & 0.709 & 0.737 & 0.711 & 0.471 & 0.562 & 0.697 & 0.552 
+\newline
+ 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut & 0.419 & 0.341 & 0.319 & 0.237 & 0.291 & 0.464 & 0.497 & 0.322 
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+enddata
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout TableComments
+
+ C has been color corrected, S has been stretch corrected, CS has been color and stretch corrected, W1 has had a correction from the first normalized weight, W2 uses a correction from the first and second normalized weights, W3 uses a correction from the first, second, and third normalized weights. CSW1 uses a color and stretch correction, as well as corrections from the first normalized weight. The Dispersion is calculated as the standard deviation of the entries. 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut is the dispersion recalculated with supernovae that are more than two standard deviations from the Hubble line dropped. Entries marked with a 
+\begin_inset Formula $^{*}$
+\end_inset
+
+ were dropped for the 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut calculation.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{deluxetable}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

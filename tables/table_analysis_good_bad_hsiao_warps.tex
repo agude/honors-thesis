@@ -1,0 +1,61 @@
+%% The values (usually only l,r and c) in the last part of
+%% \begin{deluxetable}{} command tell LaTeX how many columns
+%% there are and how to align them.
+\begin{deluxetable}{cc}
+
+%% Keep a portrait orientation
+
+%% Over-ride the default font size
+%% Use Default (12pt)
+
+%% Use \tablewidth{?pt} to over-ride the default table width.
+%% If you are unhappy with the default look at the end of the
+%% *.log file to see what the default was set at before adjusting
+%% this value.
+
+%% This is the title of the table.
+\tablecaption{Result Of Warping Hsiao Template With Cardelli Law}
+
+%% This command over-rides LaTeX's natural table count
+%% and replaces it with this number.  LaTeX will increment
+%% all other tables after this table based on this number
+\tablenum{4}
+
+%% The \tablehead gives provides the column headers.  It
+%% is currently set up so that the column labels are on the
+%% top line and the units surrounded by ()s are in the
+%% bottom line.  You may add more header information by writing
+%% another line between these lines. For each column that requries
+%% extra information be sure to include a \colhead{text} command
+%% and remember to end any extra lines with \\ and include the
+%% correct number of &s.
+\tablehead{\colhead{Well fit supernovae} & \colhead{Badly fit supernovae} \\
+\colhead{} & \colhead{} } % for units
+
+%% All data must appear between the \startdata and \enddata commands
+\startdata
+SN1997dt & SN1991T \\
+SN1998aq & SN1991bg \\
+SN1999dh & SN1998bp \\
+SN1998V  & SN1998de \\
+SN1998eg & 
+SN1998ec & SN1999ac \\
+SN1999aa & SN1999cc \\
+SN1999dq & SN1999cl \\
+SN1999gd & SN1999ej \\
+SN1999gp & SN2000cx \\
+SN2000cf & SN2000dk \\
+SN2000fa \\
+SN2000es
+\enddata
+
+%% Include any \tablenotetext{key}{text}, \tablerefs{ref list},
+%% or \tablecomments{text} between the \enddata and
+%% \end{deluxetable} commands
+
+%% No \tablecomments indicated
+
+%% No \tablerefs indicated
+
+\end{deluxetable}
+

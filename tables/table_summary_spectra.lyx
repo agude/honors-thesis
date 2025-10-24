@@ -1,0 +1,593 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{deluxetable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ccccccccc
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablecaption
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Spectra summary
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablenum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+2
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablehead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Supernova
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+MJD
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Date
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Phase
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\lambda_{min}$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\lambda_{max}$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $d\lambda$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+startdata
+\end_layout
+
+\end_inset
+
+ SN1991T
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 48374.000 & 1991-04-28.00 & 0 & 1000.000 &25000.00 & 10.00 
+\newline
+ SN1991bg
+\begin_inset Formula $^{**}$
+\end_inset
+
+ & 48604.000 & 1991-12-14.00 & 1 & 3205.38 & 9062.79 & 0.63 
+\newline
+ SN1997dt & 50788.090 & 1997-12-06.99 & 3 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1998V & 50891.500 & 1998-03-19.50 & 0.5 & 3720.00 & 7509.00 & 1.50 
+\newline
+ SN1998aq & 50931.250 & 1998-04-28.25 & 1 & 3720.00 & 7510.50 & 1.50 
+\newline
+ SN1998bp & 50936.441 & 1998-05-03.44 & 0.5 & 3720.00 & 7515.00 & 1.50 
+\newline
+ SN1998de & 51026.398 & 1998-08-01.40 & 0 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1998dh & 51029.352 & 1998-08-04.34 & 0 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1998ec & 51086.488 & 1998-09-30.49 & -1.5 & 3720.00 & 7521.00 & 1.50 
+\newline
+ SN1998eg & 51110.141 & 1998-10-24.13 & 0 & 3720.00 & 7461.00 & 1.50 
+\newline
+ SN1998es & 51142.211 & 1998-11-25.20 & 1 & 3460.00 & 7319.50 & 1.50 
+\newline
+ SN1999aa & 51232.238 & 1999-02-23.24 & 1 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999ac & 51249.520 & 1999-03-12.52 & -0.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999cc & 51315.391 & 1999-05-17.39 & 0.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999cl & 51341.160 & 1999-06-12.16 & -0.5 & 3527.50 & 7154.50 & 1.50 
+\newline
+ SN1999dq & 51436.441 & 1999-09-15.43 & 1 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999ej & 51481.262 & 1999-10-30.26 & -0.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999gd & 51520.512 & 1999-12-08.50 & 2.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN1999gp & 51550.121 & 2000-01-07.12 & 0.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN2000cf & 51675.340 & 2000-05-11.34 & 3 & 3720.00 & 7549.50 & 1.50 
+\newline
+ SN2000cx & 51751.480 & 2000-07-26.48 & 0 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN2000dk & 51813.371 & 2000-09-26.36 & 1.5 & 3720.00 & 7540.50 & 1.50 
+\newline
+ SN2000fa & 51893.359 & 2000-12-15.35 & 1.5 & 3680.00 & 7541.00 & 1.50 
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+enddata
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout TableComments
+
+ 
+\begin_inset Formula $^{*}$
+\end_inset
+
+ are spectra from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{nugent02a}
+\end_layout
+
+\end_inset
+
+. 
+\begin_inset Formula $^{**}$
+\end_inset
+
+ are spectra from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{gomez96a}
+\end_layout
+
+\end_inset
+
+. All other spectra are from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{matheson08a}
+\end_layout
+
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{deluxetable}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,86 @@
+\section{Analysis}
+
+We were successfully able to create a set of eigenvectors from our twenty-three supernova. Using just three eigenvectors we are able to account for 91.3\% of
+variation within our sample, and with five eigenvectors we account for 95.8\% of variation. 
+
+\input{./tables/class_radius_theta_normalizedweights.tex}
+
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[angle=0,scale=0.8]{./figures/pca/20SNe_PCS_01to05_areanorm.ps}
+%\includegraphics[angle=0,scale=0.4]{./figures/pca/20SNe_PCS_01to05_areanorm.ps}
+%\includegraphics[angle=0,scale=0.4]{./figures/pca/20SNe_PCS_06to10_areanorm.ps}
+\end{center}
+\caption{
+The first five eigenvectors, which account for 95.8\% of variation in our sample. Note the slope of the first eigen vector.
+}
+\label{fig:eigne1}
+\end{figure}
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[angle=0,scale=0.8]{./figures/pca/20SNe_PCS_06to10_areanorm.ps}
+\end{center}
+\caption{
+Eigenvectors six through ten, which account for 2.9\% of variation in our sample. 
+}
+\label{fig:eigen2}
+\end{figure}
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[angle=0,scale=0.8]{./figures/pca/20SNe_PCS_11to15_areanorm.ps}
+\end{center}
+\caption{
+Eigenvectors eleven through fifteen, which account for 0.9\% of variation in our sample. 
+}
+\label{fig:eigen3}
+\end{figure}
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[angle=0,scale=0.8]{./figures/pca/20SNe_PCS_16to20_areanorm.ps}
+\end{center}
+\caption{
+Eigenvectors sixteen through twenty, which account for 0.3\% of variation in our sample. 
+}
+\label{fig:eigen4}
+\end{figure}
+
+
+\begin{figure}[htp]
+\begin{center}
+\includegraphics[angle=-90,scale=0.66]{./figures/hand_made/residual_fraction.ps}
+\end{center}
+\caption{
+The residual fraction of the first ten components.
+}
+\label{fig:residualfrac1-5}
+\end{figure}
+
+\input{./tables/table_residual.tex}
+
+The first eigen vector alone accounts for 76\% of variation in our data set. While our other eigenvectors are realatively flat, the first eigenvector has a definate negative slope. This allows it to account for differences in the color of supernova spectra in our dataset, with positive coeffecients creating redder spectra and negative coefficents creating bluer spectra. If color we purely an extinction related effect we would expect this component to be nearly featureless so that line ratios would be completely uncorrilated with color. However, we observe deviations from in our first eigenvector that align with the MgII feature, the FeIII features and SiII features. This suggests that color is, to some extent, corrilated with spectral features and is therefore not entirely extinction but is intrinsic to each individual supernova. We devote further sections to exploring this result.
+
+Eigenvectors two through five, which combined account for 19.8\% of variation, are all relatively flat. They primarily control the depths of different lines as well as the ratio of lines.
+
+Eigenvextors six through twenty-two combined account for only 4.2\% of variation in our dataset. They primarily appear to represent noise in the spectra, and so do not appear to be useful in classifying or categorizing supernova.
+
+\subsection{Color}
+Although $E(B-V)$ has traditionally been atriubted to extinction, recent work by \citeauthor{conley08a} (\citeyear{conley08a}) has indicated that single parameter functions, such as dust laws, are in general unable to reproduce the varriation in color seen in supernovae. They further find that $U - B$ vs. $B - V$ relation found for their type Ia supernovae do not follow the relation one would expect for Milky-Way like dust.
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[angle=0,scale=0.8]{./figures/conley/f10_color.eps}
+\end{center}
+\caption{
+The derived $U - B$ vs. $B - V$ relation found by \citeauthor{conley08a} (\citeyear{conley08a}). The best fit to the sample is the solid line. The arrow is the relation one would expect from Milky-Way like dust ($R_{v} = [1.6,3.1,4.6]$).
+}
+\label{fig:conleyfigure}
+\end{figure}
+
+In line with the results of \citeauthor{conley08a} our first eigenvector suggests that color is partially an intrinsic quantity, and not simply due to extincition. If the color excess observed in type Ia spectra was purely due to extenction then we should be able to use the Cardelli law \citep{cardelli89a} to account for it. We therefore attempt to warp the Hsaio template \citep{hsiao07a}, a template created by taking the average spectra near max of over 100 type Ia supernovae, with the Cardelli law. We fix $ R_{v} =3.1$ and varry $A_{v}$ until we find a minium in the $\chi^{2}$ overlap between the warped Hsiao spectrum and our observed spectrum.
+
+We find that eleven of our twenty-three spectra can not be well fitted by warping the Hsiao template using only a Cardelli law. The absorbtion features in these supernova do not match the warped hsiao templte, and Cardelli law dust has no mechanism for adjusting these features. This provides further evidence that dust alone can not account for the observed range of $E(B-V)$.
+
+%\input{./tables/table_analysis_good_bad_hsiao_warps.tex}
+
+%% revise or toss
+%A further test of purely extinction based color is the blueness of supernova. Extinction will only redden supernova, and so no supernova should have a $E(B-V) < 0$. However some of our supernovae (SN1998aq, SN1999aa, SN1999gp, SN2000cf and SN2000cx) actually find their lowest $\chi^{2}$ when we warp Hsiao's templte with an $E(B-V) < 0$. And although all but SN2000cx of these type appear to fit well with a warped Hsiao template, this is an unphysical effect as the dust Cardelli models can not actually make a spectra bluer.

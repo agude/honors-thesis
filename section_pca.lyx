@@ -1,0 +1,450 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Principal Component Analysis
+\end_layout
+
+\begin_layout Standard
+
+PCA is a mathematical technique to reduce sets of data to lower dimensions for analysis that was first described by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{pearson01a}
+\end_layout
+
+\end_inset
+
+. PCA has proven effective in classifying quasar spectra (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{suzuki05b}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{suzuki05b}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{suzuki05a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{suzuki05a}
+\end_layout
+
+\end_inset
+
+) and so we believe it will be similarly useful in analyzing type Ia spectra.
+\end_layout
+
+\begin_layout Subsection
+
+The PCA Formulation
+\end_layout
+
+\begin_layout Standard
+
+A supernova spectrum is expressed as 
+\begin_inset Formula $\vec{s_{i}}(\lambda)$
+\end_inset
+
+. We claim that this spectrum can be well represented by a reconstructed spectrum 
+\begin_inset Formula $\vec{r_{i}}(\lambda)$
+\end_inset
+
+ which is the sum of the mean spectrum and 
+\begin_inset Formula $m$
+\end_inset
+
+ weighted principal component spectra as follows:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[\vec{s_{i}}(\lambda) \approx \vec{r_{i,m}}(\lambda) = \vec{\mu}(\lambda) + \sum_{j=1}^{m} c_{ij} \vec{\xi_{j}}(\lambda)\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+where 
+\begin_inset Formula $i$
+\end_inset
+
+ refers to a particular supernova, 
+\begin_inset Formula $\vec{\mu}(\lambda)$
+\end_inset
+
+ is the mean spectrum, 
+\begin_inset Formula $\vec{\xi_{j}}(\lambda)$
+\end_inset
+
+ is the 
+\begin_inset Formula $j$
+\end_inset
+
+th principal component spectrum (PCS), and 
+\begin_inset Formula $c_{ij}$
+\end_inset
+
+ is the real weight.
+\end_layout
+
+\begin_layout Subsection
+
+The Principal Component Spectrum
+\end_layout
+
+\begin_layout Standard
+
+To find the principal component spectrum (PCS) we need to calculate the correlation of the fluxes at each wavelength in order to see how different parts of the spectrum are related. We compute a correlations matrix with elements:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[  \textbf{R}(\lambda_{m},\lambda_{n}) = \frac{1}{N-1} \sum_{i=1}^{N} \frac{[\vec{s}_{i}(\lambda_{m}) - \vec{\mu}(\lambda_{m})][\vec{s}_{i}(\lambda_{n}) - \vec{\mu}(\lambda_{n})]}{\sigma(\lambda_{m})\sigma(\lambda_{n})} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+where 
+\begin_inset Formula $N$
+\end_inset
+
+ is the total number of spectra used in the analysis, 
+\begin_inset Formula $\sigma_{m}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{n}$
+\end_inset
+
+ are the standard deviation of the flux in the wavelength bins corresponding to 
+\begin_inset Formula $\lambda_{m}$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda_{n}$
+\end_inset
+
+ respectively.
+\end_layout
+
+\begin_layout Standard
+
+We then calculate the covariance matrix with elements:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ \textbf{V}(\lambda_{m},\lambda_{n}) = \frac{1}{N-1} \sum_{i=1}^{N} [\vec{s}_{i}(\lambda_{m}) - \vec{\mu}(\lambda_{m})][\vec{s}_{i}(\lambda_{n}) - \vec{\mu}(\lambda_{n})] \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+We can then find the principal components by decomposing the covariance matrix 
+\begin_inset Formula $\textbf{V}$
+\end_inset
+
+ into the product of the orthonormal matrix 
+\begin_inset Formula $\textbf{P}$
+\end_inset
+
+ which consists of our eigenvectors, and the diagonal matrix 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+boldmath
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Lambda$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ which contains the eigenvalues:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ \textbf{V} = \textbf{P}^{-1} \mbox{\boldmath$\Lambda$} \textbf{P} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+The columns of 
+\begin_inset Formula $\textbf{P}$
+\end_inset
+
+ are our principal components. We order them by the amount of variance in the data set they are able to accommodate so that our first component accounts for the largest amount of variance.
+\end_layout
+
+\begin_layout Subsection
+
+Reconstructing Spectra
+\end_layout
+
+\begin_layout Standard
+
+Once we have calculated our set of PCS we can reconstruct a given supernova spectrum 
+\begin_inset Formula $\vec{s}_{i}(\lambda)$
+\end_inset
+
+. We must first calculate the weight 
+\begin_inset Formula $c_{ij}$
+\end_inset
+
+ for each of the 
+\begin_inset Formula $j$
+\end_inset
+
+th as follows:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ c_{ij} = ( \vec{s}_{i} - \vec{\mu}) \cdot \vec{\xi}_{j} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+We will later use normalized weights in our analysis, which are defined as:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ c_{ij} = \lambda_{i} \sigma_{ij} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+where 
+\begin_inset Formula $\lambda_{i}$
+\end_inset
+
+ is the standard deviation calculated for the weights of eigenvector 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+If we use 
+\begin_inset Formula $m$
+\end_inset
+
+ components then we can define the accumulated residual variance fraction as:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%$$
+\backslash
+delta E_{i,m} = 
+\backslash
+frac {
+\backslash
+int_{
+\backslash
+lambda_{min}}^{
+\backslash
+lambda_{max}} [r_{i,m}(
+\backslash
+lambda) - s_{i}(
+\backslash
+lambda)]^{2} d
+\backslash
+lambda} {
+\backslash
+int_{
+\backslash
+lambda_{min}}^{
+\backslash
+lambda_{max}} [s_{i}(
+\backslash
+lambda) - 
+\backslash
+mu(
+\backslash
+lambda)]^{2} d
+\backslash
+lambda} $$
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \[ f_{j} = \frac{\sum_{i}^{n} \sum_{j}^{m} c_{ij}^{2}}{\sum_{i}^{n} \sum_{j}^{N} c_{ij}^{2}} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+This quantity measures the importance of each eigenvector. It returns a number which is the percent of variation accounted for by simply adjusting the value of that eigenvector.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%square of the differences of the reconstructed spectrum from the actual spectrum in units of the square of the difference between the actual spectrum and the average spectrum. $
+\backslash
+delta E_{i,m}$ approaches $0$ as $m$ increases, that is the more components we use the closer our reconstruction comes to the actual spectrum. %% The old paragraph
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

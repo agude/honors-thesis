@@ -1,0 +1,176 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Spectra of Type Ia Supernovae
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% More intro
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+Optical spectra are the means through which supernovae are classified 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{branch01a}
+\end_layout
+
+\end_inset
+
+. Type Ia spectra are characterized by a deep absorption feature near 6150 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+produced by blue shifted Si II 
+\begin_inset Formula $\lambda$
+\end_inset
+
+6347, 
+\begin_inset Formula $\lambda$
+\end_inset
+
+6371. The early spectrum exhibits broad features from lines of neutral and singly ionized intermediate-mass elements including O, Mg, Si, S, and Ca. There is some contribution from iron-peak elements, primarily Fe and Co near UV wavelengths. At this point the strongest features are those that arise from SI II 
+\begin_inset Formula $\lambda$
+\end_inset
+
+6355 and Ca II H&K 
+\begin_inset Formula $\lambda$
+\end_inset
+
+3934 and 
+\begin_inset Formula $\lambda$
+\end_inset
+
+3968. As the spectrum evolves in time Fe II lines becomes prominent, and the evolution slows down.
+\end_layout
+
+\begin_layout Standard
+
+The spectra of type Ia supernovae are rather homogeneous if compared at the same phase and can be used to estimate time of max if compared with spectral templates 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{filippenko97a}
+\end_layout
+
+\end_inset
+
+. There are however differences in the spectra of type Ia supernovae. Line depths vary between different supernovae as does the velocity of ejecta. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%% A spectroscopic survey of type Ia's has concluded that populations in elliptical galaxies differ from those hosted in spiral galaxies, and that this difference can only be accounted for by actually differences in the supernovae and not differences in viewing conditions. %(Note: Fileppenko 1997, but unclear which source he refers to).
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+One class of peculiar supernovae are the SN1991T-like supernovae. These supernovae are overly luminescent and bluer in B-V color than normal type Ia supernovae. They prominently feature a high excitation Fe III feature near maximum, with the characteristic type Ia features developing after maximum. These species of type Ia do not exhibit Si II or Ca II absorption lines in their early spectra.
+\end_layout
+
+\begin_layout Standard
+
+A second peculiar class of supernovae are the SN1991bg-like supernovae. These supernovae are characteristically sub-luminous in V and B, and are particularly red in B-V color. After maximum they decline more quickly then the typical type Ia 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{filippenko92b}
+\end_layout
+
+\end_inset
+
+. These supernovae have a deep absorption feature at 
+\begin_inset Formula $\lambda$
+\end_inset
+
+4200 from Ti II. 
+\end_layout
+
+\end_body
+\end_document

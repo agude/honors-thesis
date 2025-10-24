@@ -1,0 +1,2057 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Analysis
+\end_layout
+
+\begin_layout Subsection
+
+PCA eigenvectors
+\end_layout
+
+\begin_layout Standard
+
+We were successfully able to create a set of eigenvectors from the twenty-three supernovae. Using just three eigenvectors we are able to account for 91.3% of variation within the sample, and with five eigenvectors we account for 95.8% of variation.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/class_radius_theta_normalizedweights.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement htp
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/20SNe_PCS_01to05_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+includegraphics[angle=0,scale=0.4]{./figures/pca/20SNe_PCS_01to05_areanorm.ps}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+includegraphics[angle=0,scale=0.4]{./figures/pca/20SNe_PCS_06to10_areanorm.ps}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+
+ The first five eigenvectors, which account for 95.8% of variation in the sample. Note the slope of the first eigenvector. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:eigne1}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement htp
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/20SNe_PCS_06to10_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Eigenvectors six through ten, which account for 2.9% of variation in the sample. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:eigen2}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement htp
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/20SNe_PCS_11to15_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Eigenvectors eleven through fifteen, which account for 0.9% of variation in the sample. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:eigen3}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement htp
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/20SNe_PCS_16to20_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Eigenvectors sixteen through twenty, which account for 0.3% of variation in the sample. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:eigen4}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement htp
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/residual_fraction.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ The residual fraction of the first ten components. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:residualfrac1-5}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/table_residual.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+The first eigenvector alone accounts for 76% of variation in the data set. While the other eigenvectors are relatively flat, the first eigenvector has a definate slope. This allows it to account for differences in the color of supernovae spectra in the data set, with positive coeffecients creating bluer spectra and negative coefficents creating redder spectra.
+\end_layout
+
+\begin_layout Standard
+
+Eigenvectors two through five, which combined account for 19.8% of variation, are all relatively flat. They primarily control the depths of different lines as well as the ratio of lines.
+\end_layout
+
+\begin_layout Standard
+
+Eigenvectors six through twenty-two combined account for only 4.2% of variation in the data set. They primarily appear to represent noise in the spectra, and so do not appear to be useful in classifying or categorizing supernovae.
+\end_layout
+
+\begin_layout Subsection
+
+Classification of Supernovae
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ is primarily responsible for the color of a supernova. Supernova with 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ are blue, while those with 
+\begin_inset Formula $\sigma_{1} < 0$
+\end_inset
+
+ are red. 
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{3}$
+\end_inset
+
+ control the ratio of various absorption features. We have divided the supernovae into classes based on the values of their 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+ normalized weights.
+\end_layout
+
+\begin_layout Standard
+
+We define a coordinate system such that:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ r_{i} = \sqrt( \sigma^{2}_{i1} + \sigma^{2}_{i2} )\]
+\end_inset
+
+ 
+\begin_inset Formula \[ \tan{\theta_{i}} = \frac {\sigma_{i2}}{\sigma_{i1}} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Using this system, classes I-IV are defined by the the four quadrants. We define a class zero centered on the origin with a radius 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+ defined so that the probability of a supernova lying within it are 
+\begin_inset Formula $P = 0.2$
+\end_inset
+
+. We solve for 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ using:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ P(r \le r_{0}) = \int_{0}^{r_{0}} r e^{-r^{2}/2} dr = 1 -  e^{-r_{0}^{2}/2} \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Class zero supernovae are the 20% of the sample closest to the mean spectrum. Class I are those supernovae with 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2} > 0$
+\end_inset
+
+. Class I are blue with sharp peaks and deep absorption lines. Class II supernovae are defined by 
+\begin_inset Formula $\sigma_{1} < 0$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2} > 0$
+\end_inset
+
+. The have deep lines, but are red. Class III is defined by 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2} < 0$
+\end_inset
+
+. These supernovae are red, with a spectrum that is more flat with less defined features. SN1991bg is a Class III supernova, nearly two standard deviations from the mean in both of its normalized weights. Class IV are those supernovae with 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2} < 0$
+\end_inset
+
+. They are blue with less pronounced features. SN1991T is a Class IV supernova.
+\end_layout
+
+\begin_layout Standard
+
+In order to visualize how 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+ effect the shape of a type Ia spectrum, we have provided a plot of the mean spectrum (figure 
+\begin_inset LatexCommand \ref{fig:classzero}
+
+\end_inset
+
+), as well as the mean spectrum plus the first two components set so that we create a spectrum within each class, I through IV (figure 
+\begin_inset LatexCommand \ref{fig:fourclasses}
+
+\end_inset
+
+). For each of these four demonstration spectra the weights are one standard deviation from the mean.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename ./figures/hand_made/avg.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ The mean spectrum, 
+\begin_inset Formula $\vec{\mu}$
+\end_inset
+
+. Class zero are the 20% of supernovae that are closest to this 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:classzero}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/4class_areanorm.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Four spectra demonstrating Class I through Class IV, with the normalized weights set so that each one is one standard deviation from the norm. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:fourclasses}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+Color: Cardelli Law or Intrinsic?
+\end_layout
+
+\begin_layout Standard
+
+Although 
+\begin_inset Formula $E(B-V)$
+\end_inset
+
+ has traditionally been attributed to extinction, recent work has suggested it may not be. For example, recent work by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{conley08a}
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{conley08a}
+\end_layout
+
+\end_inset
+
+) has indicated that single parameter functions, such as dust laws, are in general unable to reproduce the variation in color seen in supernovae. They further find that the 
+\begin_inset Formula $U - B$
+\end_inset
+
+ vs. 
+\begin_inset Formula $B - V$
+\end_inset
+
+ relation found for their type Ia supernovae do not follow the relation one would expect for Milky-Way like dust.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Conley fig
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/conley/f10_color.eps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ The derived 
+\begin_inset Formula $U - B$
+\end_inset
+
+ vs. 
+\begin_inset Formula $B - V$
+\end_inset
+
+ relation found by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{conley08a}
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{conley08a}
+\end_layout
+
+\end_inset
+
+). The best fit to the sample is the solid line. The arrow is the relation one would expect from Milky-Way like dust (
+\begin_inset Formula $R_{v} = [1.6,3.1,4.6]$
+\end_inset
+
+). Figure courtesy of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{conley08a}
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{conley08a}
+\end_layout
+
+\end_inset
+
+). 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:conleyfigure}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+In line with the results of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{conley08a}
+\end_layout
+
+\end_inset
+
+ the first eigenvector suggests that color is partially an intrinsic quantity, and not simply due to extinction. If color is purely an extinction related-effect we would expect this eigenvector to be nearly featureless so that line ratios would be completely uncorrelated with color. However, we observe deviations from the first eigenvector that align with the MgII feature, the FeIII features and the SiII features. This suggests that color is, to some extent, correlated with spectral features and is therefore not entirely extinction but is intrinsic to each individual supernova.
+\end_layout
+
+\begin_layout Standard
+
+If the color excess observed in type Ia spectra was purely due to extinction then we should be able to use the Cardelli law 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{cardelli89a}
+\end_layout
+
+\end_inset
+
+ to account for it. We therefore attempt to warp the Hsiao template 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{hsiao07a}
+\end_layout
+
+\end_inset
+
+, a template created by taking the mean spectra of over 100 type Ia supernovae near maximum light, with the Cardelli law. We fix 
+\begin_inset Formula $ R_{V} =3.1$
+\end_inset
+
+ and vary 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+ until we find a minimum in the 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ overlap between the warped Hsiao spectrum and the observed spectrum.
+\end_layout
+
+\begin_layout Standard
+
+While many of the spectra appear to be able to be fit by a simple Cardelli law applied to the Hsiao template, nine supernovae fail. As expected the peculiar SN1991T and SN1991bg are not well fit. SN1998de, SN1998bp, SN1999cl, SN2000dk, and SN2000cx have spectral features that can not be matched with only a Cardelli law. SN1998aq and SN1999aa seem to fit well at first glance, but both have nonphysical preferred values of 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+, 
+\begin_inset Formula $-0.031$
+\end_inset
+
+ for SN1998aq and 
+\begin_inset Formula $-0.062$
+\end_inset
+
+ for SN1999aa. This suggests that for some of the supernovae Cardelli's law does not account for the observed color if 
+\begin_inset Formula $ R_{V} =3.1$
+\end_inset
+
+ is fixed, however we can not say anything about the effects of letting 
+\begin_inset Formula $R_{V}$
+\end_inset
+
+ float. This is something that we would like to explore in future work.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+< .mine 
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+< .mine 
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+< .mine 
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+
+\begin_inset Quotes ard
+\end_inset
+
+< .mine 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+input{./tables/table_analysis_good_bad_hsiao_warps.tex}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+======= Warping Hsiao's template with a Cardelli law provides a qualitative indication that color is not entirely due to extinction, but does not provide us with a quantitative method of determining the ammount of color excess due to extinction. For this we turn to our eigenvectors. ======= Warping Hsiao's template with a Cardelli law provides a qualitative indication that color is not entirely due to extinction, but does not provide us with a quantitative method of determining the amount of color excess due to extinction. For this we turn to our eigenvectors. ======= Warping Hsiao's template with a Cardelli law provides a qualitative indication that color is not entirely due to extinction, but it does not provide us with a quantitative method of determining the amount of color excess due to extinction. For this we turn to our eigenvectors. ======= Warping Hsiao's template with a Cardelli law provides a qualitative indication that color is not entirely due to extinction, but it does not provide us with a quantitative method of determining the amount of color excess due to extinction. For this we turn to the eigenvectors. 
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+> .r1177 
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+> .r1139 
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+> .r1130 
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+
+\begin_inset Quotes ald
+\end_inset
+
+> .r1097
+\end_layout
+
+\begin_layout Standard
+
+In figures 
+\begin_inset LatexCommand \ref{fig:sig1sig2}
+
+\end_inset
+
+, 
+\begin_inset LatexCommand \ref{fig:sig1sig3}
+
+\end_inset
+
+, and 
+\begin_inset LatexCommand \ref{fig:sig2sig3}
+
+\end_inset
+
+ we plot the normalized weight functions of the supernovae against each other. Supernovae with similar features will cluster. Further, it is possible to calculate a extinction vector in this space which allows us to observe exactly how much color excess is due to extinction. We plot the extinction vector by using the Cardelli law to warp the mean spectrum from the PCA. We fix 
+\begin_inset Formula $R_{V} = 3.1$
+\end_inset
+
+ and increment 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+ by 0.2. We then normalize this spectrum by its area again and subtract off the mean spectrum. We then dot this with an eigenvector which gives us a weight. Mathematically this is:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula \[ c_{j}^{CCM} = \vec{\xi_{j}} \cdot \left[ \frac {\vec{\mu} \cdot CCM(R_{V}=3.1,A_{V})}{Normalization} - \vec{\mu} \right] \]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Where 
+\begin_inset Formula $\vec{\mu}$
+\end_inset
+
+ is the mean spectrum, 
+\begin_inset Formula $CCM(R_{V}=3.1,A_{V})$
+\end_inset
+
+ is the Cardelli factor, and 
+\begin_inset Formula $\vec{\xi_{j}}$
+\end_inset
+
+ is the 
+\begin_inset Formula $j$
+\end_inset
+
+th eigenvector.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/sigma1_vs_sigma2_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Supernovae plotted by their first and second normalized weight. Supernovae with 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ are blue, while those with 
+\begin_inset Formula $\sigma_{1} < 0$
+\end_inset
+
+ are red. The red line marks the expected extinction vector for Cardelli law extinction, with each open circle marking a step in 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+ of 
+\begin_inset Formula $0.2$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:sig1sig2}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/sigma1_vs_sigma3_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Supernovae plotted by their first and third normalized weight. Supernovae with 
+\begin_inset Formula $\sigma_{1} > 0$
+\end_inset
+
+ are blue, while those with 
+\begin_inset Formula $\sigma_{1} < 0$
+\end_inset
+
+ are red. The red line marks the expected extinction vector for Cardelli law extinction, with each open circle marking a step in 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+ of 
+\begin_inset Formula $0.2$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:sig1sig3}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/pca/sigma2_vs_sigma3_areanorm.ps
+	scale 80
+	rotateAngle 0
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Supernovae plotted by their second and third normalized weight. The red line marks the expected extinction vector for Cardelli law extinction, with each open circle marking a step in 
+\begin_inset Formula $A_{V}$
+\end_inset
+
+ of 
+\begin_inset Formula $0.2$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:sig2sig3}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Only if a supernova lies near the extinction line, in all three plots, is its color due to Cardelli like dust. It is worth nothing that very few supernovae lie close to the extinction vector in all three plots. This suggests that the variation we see in color from most type Ia supernovae is due to intrinsic properties of the supernovae and not extinction.
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+ 
+\end_layout
+
+\begin_layout Subsection
+
+Applications to the Hubble Diagram
+\end_layout
+
+\begin_layout Standard
+
+We hope the PCA eigenvectors will assist in future cosmology research involving type Ia supernovae. In order to get an idea of their usefulness, we create a series of Hubble diagrams with the supernovae from the data set, except for SN1991T and SN1991T as they do not have light curves and SN1999cl which was such an outlier that it badly pulled the fit. We plot 
+\begin_inset Formula $cz$
+\end_inset
+
+ of the host galaxies of each of the supernovae against their maximum B band magnitude. Because the supernovae are nearby, they have peculiar velocity that must be corrected for. We used the 
+\begin_inset Formula $cz$
+\end_inset
+
+ calculated relative to the cosmic microwave background 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{fixsen96a}
+\end_layout
+
+\end_inset
+
+. We plot the Hubble law using 
+\begin_inset Formula $H_{0} = 71.9 km/s/Mpc$
+\end_inset
+
+ as reported by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{hinshaw08a}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+We also make Hubble diagrams using color corrections (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{astier06a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{astier06a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{sullivan03a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{sullivan03a}
+\end_layout
+
+\end_inset
+
+), stretch corrections (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{perlmutter97a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{perlmutter97a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{perlmutter99a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{perlmutter99a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{knop03}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{knop03}
+\end_layout
+
+\end_inset
+
+), and both color and stretch corrections combined. For these corrections we fit for 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta$
+\end_inset
+
+ iteratively, seeding with values of 
+\begin_inset Formula $\alpha = -1.24$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta = 2.28$
+\end_inset
+
+ as determined by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{kowalski08a}
+\end_layout
+
+\end_inset
+
+. We find that for this sample, 
+\begin_inset Formula $\alpha = -2.084$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta = 3.610$
+\end_inset
+
+. In order to find a fit that would correct most of our supernova, we removed by hand a single outlier with color 
+\begin_inset Formula $> 1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+We then attempt to find a correlation between the normalized weights and dispersion around the Hubble line. While we'd like to be able to measure the effect on intrinsic dispersion, we do not have accurate enough error bars to do so. We plot the first normalized weight, 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ against 
+\begin_inset Formula $mag_{B} - Model$
+\end_inset
+
+ and fit for a correction using weighted least squares. We then apply this correction and plot 
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+ against 
+\begin_inset Formula $mag_{B} - Model - A_{1}*\sigma_{1} - B_{1}$
+\end_inset
+
+ where 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ are the slope and intercept of the correction. We continue to do this for the first five normalized weights. We then create Hubble diagrams using only the 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ correction, using 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+, and so on until we use all of the corrections up to 
+\begin_inset Formula $\sigma_{5}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+We then attempt to combine color, stretch, and the normalized weights into one correction. We use the same method as before, except we start by plotting 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ against 
+\begin_inset Formula $mag_{B} - Model - \alpha (S - 1) - \beta C$
+\end_inset
+
+ which is the magnitudes already corrected with color and stretch. We repeat the above process, subtracting off corrections for each normalized weight found previously, before fitting a new correction for the next normalized weight.
+\end_layout
+
+\begin_layout Standard
+
+We now have fourteen Hubble diagrams. Four were made with the uncorrected data, with color corrections, with stretch corrections, and with color and stretch corrections. Five were made with just using the normalized weights, and five were made combing color, stretch, and then using the normalized weights. For each of these Hubble Diagrams we calculate the dispersion, and then use this dispersion to remove any supernovae that are more than two standard deviations from the Hubble line, what we call a 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut dispersion. The supernova cut are marked by an 
+\begin_inset Formula $^{*}$
+\end_inset
+
+ on table 6.
+\end_layout
+
+\begin_layout Standard
+
+While table 6 seems to indicate that without using the 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut, we are able to achieve a lower dispersion with just our first weight than with color, stretch, or color and stretch combined corrections, this is without outlier rejection. If we reject SN1999cl, a four 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ outlier, and then perform the analysis, we find that the weight correction only improves the dispersion more than color alone, while stretch corrections and color with stretch corrections combined improve it more than using on the first weight. Using more than just the first weight increases dispersion, which is unexpected as PCA is guaranteed to lower dispersion. We see this increased dispersion though because we do not use the exact corrections determined by the PCA, but used a shortcut of fit for the corrections (the 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ mentioned above). Future analysis will be done with the PCA determined corrections.
+\end_layout
+
+\begin_layout Standard
+
+If we apply the 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+-cut after rejecting SN1999cl, we find that only using the first normalized weight gets us a dispersion that is lower than using a color correction alone or a stretch correction alone, but is worse than using a stretch correction and color correction combined. Again using more than just the first normalized weight increases the dispersion. Using color, stretch, and the first normalized weight increases dispersion as compared to using just color and stretch alone.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/table_dispersion.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{tables/table_dispersion_nocl.lyx}
+preview false
+
+\end_inset
+
+ 
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/01_hubble.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of uncorrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hduncor}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/02_hubble_stretch_corrected.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of stretch corrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hds}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/03_hubble_color_corrected.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of color corrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hdc}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/04_hubble_color_stretch_corrected.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of color and stretch corrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hdcs}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/05_hubble_beta.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ 
+\begin_inset Formula $\beta=3.610$
+\end_inset
+
+, and the supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:beta}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/06_hubble_alpha.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ 
+\begin_inset Formula $\alpha = -2.084$
+\end_inset
+
+, and the supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:alpha}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/07_hubble_sig_corrected.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of first normalized weight corrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hdw}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Graphics 
+	filename figures/hand_made/08_hubble_color_stretch_sig_corrected.ps
+	scale 66
+	rotateAngle -90
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+ Hubble diagram of color, stretch, and first normalized weight corrected supernovae. 
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:hdcsw}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\clearpage
+ 
+\end_layout
+
+\end_body
+\end_document

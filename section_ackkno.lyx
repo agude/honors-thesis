@@ -1,0 +1,51 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+
+Many people helped in the process of writing this thesis, without them it would have never been completed. I would like to thank Saul Perlmutter for allowing me to work with his group, The Supernova Cosmology Project, for the past two and a half years and for giving me an exciting and informative look into the day to day workings of a observational cosmology group. Working with Professor Perlmutter has made it clear to me that research physics is my future. I would also like to thank Nao Suzuki, who guided me when I first joined the SCP and who was always free to answer any questions I had about cosmology or my thesis. I am grateful to Mark Strovink who suggested a few ways to improve upon the methods laid out in this thesis, and am also grateful for the time David Rubin spent explaining Hubble diagrams, intrinsic dispersion, and how to get SALT2 to work. Lastly, I'd like to thank the entire SCP for their support, having so many knowledgeable people around me made writing this thesis much easier. 
+\end_layout
+
+\end_body
+\end_document

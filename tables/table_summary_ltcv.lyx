@@ -1,0 +1,591 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{deluxetable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ccccccccc
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablecaption
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Lightcurve summary
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablenum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+3
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablehead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Supernova
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Redshift
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Daymax
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Color
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Error
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Stretch
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+B Band Max
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Error
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+startdata
+\end_layout
+
+\end_inset
+
+ SN1997dt & 0.007 & 50785.113 & 0.559 & 0.009 & 0.905 & 15.451 & 0.012 
+\newline
+ SN1998V & 0.018 & 50891.151 & 0.036 & 0.004 & 0.969 & 15.042 & 0.005 
+\newline
+ SN1998aq
+\begin_inset Formula $^{*}$
+\end_inset
+
+ & 0.004 & 50930.449 & -0.124 & 0.002 & 0.922 & 12.244 & 0.002 
+\newline
+ SN1998bp & 0.010 & 50936.159 & 0.270 & 0.005 & 0.740 & 15.337 & 0.006 
+\newline
+ SN1998de & 0.017 & 51026.088 & 0.594 & 0.008 & 0.807 & 17.434 & 0.009 
+\newline
+ SN1998dh & 0.009 & 51029.620 & 0.130 & 0.005 & 0.898 & 13.850 & 0.008 
+\newline
+ SN1998ec & 0.020 & 51088.234 & 0.174 & 0.011 & 0.980 & 16.047 & 0.017 
+\newline
+ SN1998eg & 0.025 & 51110.410 & 0.039 & 0.009 & 0.910 & 16.070 & 0.008 
+\newline
+ SN1998es & 0.011 & 51141.549 & 0.068 & 0.005 & 1.047 & 13.795 & 0.006 
+\newline
+ SN1999aa & 0.014 & 51231.719 & -0.039 & 0.003 & 1.046 & 14.692 & 0.004 
+\newline
+ SN1999ac & 0.009 & 51250.350 & 0.112 & 0.003 & 0.989 & 14.121 & 0.004 
+\newline
+ SN1999cc & 0.031 & 51315.513 & 0.043 & 0.008 & 0.815 & 16.766 & 0.009 
+\newline
+ SN1999cl & 0.008 & 51341.769 & 1.200 & 0.011 & 0.915 & 14.827 & 0.013 
+\newline
+ SN1999dq & 0.014 & 51435.494 & 0.117 & 0.003 & 1.055 & 14.371 & 0.004 
+\newline
+ SN1999ej & 0.014 & 51481.985 & 0.038 & 0.010 & 0.830 & 15.290 & 0.013 
+\newline
+ SN1999gd & 0.018 & 51518.193 & 0.470 & 0.008 & 0.937 & 16.857 & 0.010 
+\newline
+ SN1999gp & 0.027 & 51550.179 & 0.062 & 0.004 & 1.163 & 16.000 & 0.004 
+\newline
+ SN2000cf & 0.036 & 51672.335 & 0.010 & 0.010 & 0.917 & 16.983 & 0.011 
+\newline
+ SN2000cx & 0.008 & 51752.315 & -0.068 & 0.008 & 0.834 & 13.062 & 0.008 
+\newline
+ SN2000dk & 0.017 & 51812.609 & 0.067 & 0.004 & 0.766 & 15.349 & 0.004 
+\newline
+ SN2000fa & 0.021 & 51892.118 & 0.077 & 0.005 & 0.966 & 15.790 & 0.006 
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+enddata
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout TableComments
+
+ 
+\begin_inset Formula $^{*}$
+\end_inset
+
+ are from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{riess05a}
+\end_layout
+
+\end_inset
+
+. All others are from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citet{jha06a}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{deluxetable}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

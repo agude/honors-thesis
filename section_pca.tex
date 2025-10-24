@@ -1,0 +1,47 @@
+\section{Principal Component Analysis}
+PCA is a mathematical technique to reduce sets of data to lower dimensions for analysis that was first described by \citet{pearson01a}. PCA has proven effective in classifying quasar spectra (\citeauthor{suzuki05b} \citeyear{suzuki05b}; \citeauthor{suzuki05a} \citeyear{suzuki05a}) and so we believe it will be similarly useful in analyzing type Ia spectra.
+
+\subsection{The PCA Formulation}
+A supernova spectrum is expressed as $\vec{s_{i}}(\lambda)$. We claim that this spectrum can be well represented by a reconstructed spectrum $\vec{r_{i}}(\lambda)$ which is the sum of the mean spectrum and $m$ weighted principal component spectra as follows:
+
+$$\vec{s_{i}}(\lambda) \approx \vec{r_{i,m}}(\lambda) = \vec{\mu}(\lambda) + \sum_{j=1}^{m} c_{ij} \vec{\xi_{j}}(\lambda)$$
+
+where $i$ refers to a particular supernova, $\vec{\mu}(\lambda)$ is the mean spectrum, $\vec{\xi_{j}}(\lambda)$ is the $j$th principal component spectrum (PCS), and $c_{ij}$ is the real weight.
+
+\subsection{The Principal Component Spectrum}
+To find the principal component spectrum (PCS) we need to calculate the correlation of the fluxes at each wavelength in order to see how different parts of the spectrum are related. We compute a correlations matrix with elements:
+
+$$  \textbf{R}(\lambda_{m},\lambda_{n}) = \frac{1}{N-1} \sum_{i=1}^{N} \frac{[\vec{s}_{i}(\lambda_{m}) - \vec{\mu}(\lambda_{m})][\vec{s}_{i}(\lambda_{n}) - \vec{\mu}(\lambda_{n})]}{\sigma(\lambda_{m})\sigma(\lambda_{n})} $$
+
+where $N$ is the total number of spectra used in the analysis, $\sigma_{m}$ and $\sigma_{n}$ are the standard deviation of the flux in the wavelength bins corresponding to $\lambda_{m}$ and $\lambda_{n}$ respectively.
+
+We then calculate the covariance matrix with elements:
+
+$$ \textbf{V}(\lambda_{m},\lambda_{n}) = \frac{1}{N-1} \sum_{i=1}^{N} [\vec{s}_{i}(\lambda_{m}) - \vec{\mu}(\lambda_{m})][\vec{s}_{i}(\lambda_{n}) - \vec{\mu}(\lambda_{n})] $$
+
+We can then find the principal components by decomposing the covariance matrix $\textbf{V}$ into the product of the orthonormal matrix $\textbf{P}$ which consists of our eigenvectors, and the diagonal matrix {\boldmath$\Lambda$} which contains the eigenvalues:
+
+$$ \textbf{V} = \textbf{P}^{-1} \mbox{\boldmath$\Lambda$} \textbf{P} $$
+
+The columns of $\textbf{P}$ are our principal components. We order them by the amount of variance in the data set they are able to accommodate so that our first component accounts for the largest amount of variance.
+
+\subsection{Reconstructing Spectra}
+
+Once we have calculated our set of PCS we can reconstruct a given supernova spectrum $\vec{s}_{i}(\lambda)$. We must first calculate the weight $c_{ij}$ for each of the $j$th as follows:
+
+$$ c_{ij} = ( \vec{s}_{i} - \vec{\mu}) \cdot \vec{\xi}_{j} $$
+
+We will later use normalized weights in our analysis, which are defined as:
+
+$$ c_{ij} = \lambda_{i} \sigma_{ij} $$
+
+where $\lambda_{i}$ is the standard deviation calculated for the weights of eigenvector $i$.
+
+If we use $m$ components then we can define the accumulated residual variance fraction as:
+
+%$$\delta E_{i,m} = \frac {\int_{\lambda_{min}}^{\lambda_{max}} [r_{i,m}(\lambda) - s_{i}(\lambda)]^{2} d\lambda} {\int_{\lambda_{min}}^{\lambda_{max}} [s_{i}(\lambda) - \mu(\lambda)]^{2} d\lambda} $$
+$$ f_{j} = \frac{\sum_{i}^{n} \sum_{j}^{m} c_{ij}^{2}}{\sum_{i}^{n} \sum_{j}^{N} c_{ij}^{2}} $$
+
+This quantity measures the importance of each eigenvector. It returns a number which is the percent of variation accounted for by simply adjusting the value of that eigenvector.
+
+%square of the differences of the reconstructed spectrum from the actual spectrum in units of the square of the difference between the actual spectrum and the average spectrum. $\delta E_{i,m}$ approaches $0$ as $m$ increases, that is the more components we use the closer our reconstruction comes to the actual spectrum. %% The old paragraph

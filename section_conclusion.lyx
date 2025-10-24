@@ -1,0 +1,84 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Conclusion
+\end_layout
+
+\begin_layout Standard
+
+We find that using only the first five eigenvectors we are able to represent 95.8% of diversity within the supernova sample. It is no longer necessary to make qualitative judgments such as "SN1991T-like" when classifying supernovae; using the PCA components supernovae can be quantitatively classified into five types.
+\end_layout
+
+\begin_layout Standard
+
+The first eigenvector has a non-zero slope which allows it to account for color. However, it also contains spectral features indicating a correlation between absorption lines and color. This suggests that color variation is not purely due to Cardelli like dust, but is partially intrinsic. We explored this possibility by warping Hsiao's template using Cardelli's law to attempt to match the supernovae and found that in many cases this does not adequately fit the spectra. We then plotted the normalized weights of the supernovae against each other along with a vector representing the normalized weights we calculated for an average spectrum warped by Cardelli dust and found that very few of the supernovae fell along this vector. We therefore conclude that color variation is primarily intrinsic.
+\end_layout
+
+\begin_layout Standard
+
+We attempt to correlate the normalized weights with dispersion around the Hubble line. When a cut is not applied, we are able to improve the dispersion around the Hubble line by using either just the first normalized weight, or by using color, stretch, and the first normalized weight. If a 2
+\begin_inset Formula $\sigma$
+\end_inset
+
+ cut is applied, we are unable to improve the dispersion using the normalized weights. However, the method of PCA requires only a single spectrum near maximum. Using this single spectrum we are able to improve the dispersion by 13% compared to applying no corrections. In contrast, using a color and stretch correction improves upon the normalized weights method by 6%, but requires a full, multiband lightcurve.
+\end_layout
+
+\begin_layout Standard
+
+We've shown that PCA is useful in classifying type Ia supernovae in a quantitative manner and have used our results to argue that color excess in type Ia supernovae is intrinsic. We have also shown that PCA shows promise for reducing dispersion around the Hubble line. There are a few refinements one could do to improve this work in the future. On the data side having more supernovae would improve the quality of the components. Likewise, it has been suggested that SN1991bg does not fall on a continuum of type Ia supernovae and so removing it and other supernovae like SN1991bg before hand would likely improve the usefulness of the components for comparing and correcting more average type Ia supernovae.
+\end_layout
+
+\begin_layout Standard
+
+We attempted to flux correct the supernovae, but the method we employed did not always improve the color. Exploring different methods of correction could improve the quality of the spectra used in the final PCA and would therefore improve the components.
+\end_layout
+
+\begin_layout Standard
+
+Our analysis could be improved in a few ways. First, when applying the Cardelli law to Hsiao's template, we fixed 
+\begin_inset Formula $R_{V}$
+\end_inset
+
+. Allowing this to float would provide a more complete test of whether any type of Cardelli dust can account for reddening. Second, we encountered problems with the Hubble diagrams and the dispersion corrections. This is partially due to the fact that many of the supernovae have peculiar velocities that we did not correct for. One could correct for these by account for Virgo infall, the pull of the Great Attractor, and other local effects, or one could use higher redshift supernovae where peculiar velocity becomes unimportant. Further, the method we used to calculate the weight corrections for dispersion did not take advantage of the fact that the eigenvectors are orthonormal. It is possible to do this and get a result where the dispersion is always lowered. This method will be persued in future analysis. 
+\end_layout
+
+\end_body
+\end_document

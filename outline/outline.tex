@@ -1,0 +1,88 @@
+\documentclass[11pt,preprint]{aastex}
+\pagestyle{myheadings}
+
+\input{../../../papers/00_bibdatabase/astromacro}
+% Macro for Paragraph Outlines
+\input{../../../papers/00_bibdatabase/outlinemacro}
+
+%% comment out either draft true or false
+\newboolean{draft}
+\setboolean{draft}{true}
+%\setboolean{draft}{false}
+
+% comment out \draftmodep line to remove all commnts and notes from
+% manuscript
+%\draftmodeptrue
+
+\begin{document}
+
+%\NOTE{Outline}
+%\NS{test}
+
+Memo:
+\begin{itemize}
+\item Ver 1.0 : AG First Draft (04/04/2008 4:20 pm at LBL)
+\end{itemize}
+
+% This is for our note
+\AG{Please check}
+
+% Citation Test
+\citet{perlmutter98a}
+\citet{suzuki05a}
+
+\outlinestart{draft}
+
+\section{Introduction: 0.8 page}
+\outline{draft}{The Large Number of Quasar Spectra, and its Variety}
+\outline{draft}{Objective Classification, PCA}
+\outline{draft}{Discovery of Weak Emission Lines in the Forst}
+\outline{draft}{Guide Lines for Continuum Fitting in the Ly alpha forest}
+\outline{draft}{Artifitial Spectra}
+
+\section{Data}
+\outline{draft}{Bechtold 334 HST FOS spectra, continua fitted, BAL removed}
+\outline{draft}{S/N, binning, redshift correction, normalization}
+\outline{draft}{Prediction Summary}
+
+\section{PCA \& PCA components}
+\outline{draft}{A brief history of PCA}
+\outline{draft}{PCA formulation}
+\outline{draft}{Principal Component Spectra, figure}
+\outline{draft}{Variance, table}
+\outline{draft}{PCS Coefficients}
+
+\section{PCA classification}
+\subsection{Weak Emission in the Ly alpha Forest}
+\subsection{Class Zero, Mean Spectra, figure}
+\subsection{Class I}
+\subsection{Class II}
+\subsection{Class III}
+\subsection{Class IV}
+
+\section{Luminosity Relation}
+The essence of the observational astrophysics is to find the correlation
+between the observables and the physical properties.
+\outline{draft}{Baldwin Effect}
+\outline{draft}{Hint of Correlation}
+\outline{draft}{Finding Luminosity, equations}
+\outline{draft}{3 steps \& Projection Matrix, table}
+\outline{draft}{Testing Prediction}
+\outline{draft}{Comments on Prediction}
+
+\section{Artifitial Spectra}
+\outline{draft}{Active use of PCS}
+\outline{draft}{How to generate Artifitial Spectra}
+\outline{draft}{Use of Artifitial Spectra}
+
+\section{Future Prospective}
+\outline{draft}{How to improve, wavelength range, number of spectra}
+\outline{draft}{What can be done, supernova}
+
+
+\outlineend{draft}
+
+\bibliographystyle{../../../papers/00_bibdatabase/apj}
+\bibliography{../../../papers/00_bibdatabase/archive}
+
+\end{document}

@@ -1,0 +1,573 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{deluxetable}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+ccccccccc
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablecaption
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Supernova Summary
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablenum
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+tablehead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Supernova
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+RA
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+DEC
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Z
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $Z_{CMB}$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+MWEBV
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Host Galaxy
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ & 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+colhead
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Host Type
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+startdata
+\end_layout
+
+\end_inset
+
+ SN1991T & 12:34:10.2 & +02:39:56.0 & 0.0069 & 0.0058 & 0.095 & NGC4527 & SAB(s)bc 
+\newline
+ SN1991bg & 02:25:03.7 & +12:52:16.0 & 0.0035 & 0.0046 & 0.176 & NGC4374 & E1 
+\newline
+ SN1997dt & 23:00:02.97 & +15:58:50.4 & 0.0073 & 0.0061 & 0.057 & NGC7448 & Sbc 
+\newline
+ SN1998aq & 11:56:25.87 & +55:07:43.20 & 0.0037 & 0.0043 & 0.014 & NGC3982 & SAB(r)b 
+\newline
+ SN1998bp & 17:54:50.73 & +18:19:50.2 & 0.0104 & 0.0102 & 0.076 & NGC6495 & E 
+\newline
+ SN1998de & 00:48:06.88 & +27:37:29.9 & 0.0166 & 0.0156 & 0.057 & NGC252 & S0 
+\newline
+ SN1998dh & 23:14:40.31 & +04:32:13.4 & 0.0089 & 0.0077 & 0.068 & NGC7541 & Sbc 
+\newline
+ SN1998ec & 06:53:06.10 & +50:02:22.8 & 0.0199 & 0.0201 & 0.085 & UGC3576 & Sb 
+\newline
+ SN1998eg & 22:39:30.34 & +08:36:20.8 & 0.0248 & 0.0235 & 0.123 & UGC12133 & Sc 
+\newline
+ SN1998es & 01:37:17.52 & +05:52:50.2 & 0.0106 & 0.0096 & 0.032 & NGC632 & S0 
+\newline
+ SN1998V & 18:22:37.40 & +15:42:08.0 & 0.0176 & 0.0172 & 0.196 & NGC6627 & Sb 
+\newline
+ SN1999aa & 08:27:42.15 & +21:29:15.6 & 0.0144 & 0.0153 & 0.040 & NGC2595 & Sc 
+\newline
+ SN1999ac & 16:07:15.05 & +07:58:20.1 & 0.0095 & 0.0098 & 0.046 & NGC6063 & Scd 
+\newline
+ SN1999cc & 16:02:42.04 & +37:21:33.7 & 0.0313 & 0.0315 & 0.023 & NGC6038 & Sc 
+\newline
+ SN1999cl & 12:31:56.03 & +14:25:35.1 & 0.0076 & 0.0087 & 0.038 & NGC4501(M88) & Sb 
+\newline
+ SN1999dq & 02:33:59.71 & +20:58:30.2 & 0.0143 & 0.0135 & 0.110 & NGC976 & Sc 
+\newline
+ SN1999ej & 01:22:57.38 & +33:27:57.4 & 0.0137 & 0.0128 & 0.071 & NGC495 & S0/Sa 
+\newline
+ SN1999gd & 08:38:24.57 & +25:45:33.8 & 0.0185 & 0.0193 & 0.041 & NGC2623 & N/A 
+\newline
+ SN1999gp & 02:31:39.08 & +39:22:52.4 & 0.0267 & 0.0260 & 0.056 & UGC1993 & Sb 
+\newline
+ SN2000cf & 15:52:56.33 & +65:56:13.2 & 0.0364 & 0.0365 & 0.032 & MCG+11-19-25 & N/A 
+\newline
+ SN2000cx & 01:24:46.15 & +09:30:31.1 & 0.0079 & 0.0069 & 0.082 & NGC524 & S0 
+\newline
+ SN2000dk & 01:07:23.53 & +32:24:23.4 & 0.0174 & 0.0165 & 0.070 & NGC382 & E 
+\newline
+ SN2000fa & 07:15:29.87 & +23:25:42.4 & 0.0213 & 0.0218 & 0.069 & UGC3770 & Sd/Irr 
+\newline
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+enddata
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+tablecomments{}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{deluxetable}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

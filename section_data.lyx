@@ -1,0 +1,734 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Data
+\end_layout
+
+\begin_layout Standard
+
+For our analysis we used a data set consisting of twenty-three type Ia supernova spectra (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{matheson08a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{matheson08a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{nugent02a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{nugent02a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{gomez96a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{gomez96a}
+\end_layout
+
+\end_inset
+
+), twenty-one of which have multicolor light curves (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{jha06a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{jha06a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{riess05a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{riess05a}
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/table_summary_sn.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/table_summary_spectra.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Include \input{tables/table_summary_ltcv.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+With the exception of SN1991T and SN1991bg, all of the spectra come from 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{matheson08a}
+\end_layout
+
+\end_inset
+
+. The spectra provided by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{matheson08a}
+\end_layout
+
+\end_inset
+
+ were precessed in a uniform manner and were reduced before being released. With the exception of SN1991T and SN1991bg, for which we do not use light curves, and SN1998aq, whose light curve which comes from 
+\begin_inset LatexCommand \cite{riess05a}
+
+\end_inset
+
+, all of the light curves come from 
+\begin_inset LatexCommand \cite{jha06a}
+
+\end_inset
+
+. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{jha06a}
+\end_layout
+
+\end_inset
+
+ calibrated their photometry against standard stars in the field and then converted their filters to a standard system. The light curve for SN1998aq was processed in a similar manner to those taken by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{jha06a}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+
+SN1991T and SN1991bg Data
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Need cite for "THEY BE WEIRD!"
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+SN1991T and SN1991bg are peculiar supernovae. Their data were taken well before the other supernovae in the sample and so they were not taken with the above listed sources. SN1991T is an uncharacteristically luminescent type Ia with a 
+\begin_inset Formula $B-V$
+\end_inset
+
+ color far bluer than normal. SN1991bg is under luminescent.
+\end_layout
+
+\begin_layout Standard
+
+SN1991T only has spectra taken outside of the three day within maximum light range that we used to select supernovae, as its maximum coincided with the full moon. Even so we felt we had to include this supernova in our analysis as it was the first of its type discovered and is a prime example of one peculiar class of type Ia supernovae. We used the templates provided by 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{nugent02a}
+\end_layout
+
+\end_inset
+
+ which is derived from the available spectra for SN1991T. Nugent corrected the supernova for extinction assuming a color excess 
+\begin_inset Formula $E(B-V) = 0.2$
+\end_inset
+
+ using the methods described by 
+\begin_inset LatexCommand \cite{cardelli89a}
+
+\end_inset
+
+. We undid this correction to get back to the observed spectrum.
+\end_layout
+
+\begin_layout Standard
+
+SN1991bg on the other hand has four spectra, two taken a day after maximum (
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{gomez96a}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{gomez96a}
+\end_layout
+
+\end_inset
+
+; 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{turatto96b}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeyear{turatto96b}
+\end_layout
+
+\end_inset
+
+), and two taken two days after maximum 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{turatto96b}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+Processing
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%SALT2 model version?
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Detail basic ltcv info from jha, including their processing, instruments, and filters
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+The light curves were fit using snfit with a SALT2 model. SALT2 is an empirical model of type Ia supernovae trained using a selection of light-curves and spectra from both nearby and distant type Ia supernovae 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{guy07a}
+\end_layout
+
+\end_inset
+
+. We provide the fitter with the redshift and day of B band maximum given by the source papers for each supernova. Day of B band maximum was fixed as we found SALT2 did a better job of fitting when this parameter was not allowed to float.
+\end_layout
+
+\begin_layout Standard
+
+The spectra were selected such that the rest phase was within three days of maximum. When multiple spectra from one supernova satisfied this requirement we selected the spectrum closest to maximum. The phase of each spectrum was determined by subtracting the day of maximum from the light curve from the observed date of the spectrum.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Flux calibration... Ask Nao for overview of why (slit loss?)
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%The relative flux of each spectrum was not calibrated. % Well, it is acutally, right?
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+We performed a flux calibration on each spectrum to adjust its color to match the color fit from the light curve. A model of each spectrum in the rest frame was created using SALT2 based on the light curve fit. As we only wanted to correct the general shape of the spectrum without distorting the features we re-binned each spectrum into 500
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+bins and normalized by dividing each flux count by the total area under the spectrum. We then re-binned the SALT2 model and normalized it by dividing through by its area, although this time we only calculate the area using the part of the model the overlaps the data spectrum. We then calculated a difference between the model and the spectrum and fit a first and a second order polynomial to the differences. We then made corrected versions of the spectrum by using these polynomials to adjust the flux in each bin. We calculated the color for each of our three versions: uncorrected, first-order corrected, and second-order corrected, and selected the one whose color most closely matches the light curve. The corrections do not always improve the color, and so for some versions the uncorrected spectrum is used. We believe we were not always able to improve color with our corrections because we do not take into account where the filters overlap the spectrum when we re-bin them. This hypothesis will be tested, and other correction methods examined in future work. We then trimmed the spectrum to only cover 3710
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+to 7080
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+as this was the largest range over which all the spectra overlapped.
+\end_layout
+
+\begin_layout Standard
+
+Plots for each supernovae are included in Appendix A. These plots include the original normalized spectrum, the normalized flux calibrated spectrum, the 500
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+binned spectrum and correction function that was finally used, and a light curve fit by SALT2 that was used to determine color.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Rebinning
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Ask Nao about nomenclature of vel
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+For most of the spectra the binning size is 1.5
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+in the observer frame. As the width of the spectral features of a type Ia supernova is on the order of 5000 
+\begin_inset Formula $\frac{km}{sec}$
+\end_inset
+
+ the spectra are oversampled. We therefore re-bin each flux calibrated spectra to 10
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+AA
+\end_layout
+
+\end_inset
+
+
+\begin_inset InsetSpace \space{}
+to reduce noise. After the re-binning each spectrum is once again normalized by dividing through by the total area under the spectrum.
+\end_layout
+
+\begin_layout Subsection
+
+SN1991T and SN1991bg Processing
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Need cite for "THEY BE WEIRD!"
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+No processing was done on the SN1991T and SN1991bg spectra. Neither of these supernovae's light curves are properly fit with SALT2. Further, we require an artificial spectrum generated by SALT2 based on the light curve fit in order to properly flux calibrate the spectra, but the SALT2 spectrum template is not flexible enough to model these odd supernovae. Any correction we tried to make therefore would only bias our results by changing these peculiar spectra to be more normal.
+\end_layout
+
+\begin_layout Standard
+
+As we had multiple spectra for SN1991bg, we had to make a selection of one to use for our analysis. The selection was made by comparing the color of each spectrum to the color reported by 
+\begin_inset LatexCommand \cite{turatto96b}
+
+\end_inset
+
+ of 
+\begin_inset Formula $(B-V) = 0.74$
+\end_inset
+
+. As we were unable to correct these spectra in any way we needed to select a spectrum already close to this in 
+\begin_inset Formula $(B-V)$
+\end_inset
+
+ color. The spectrum supplied by 
+\begin_inset LatexCommand \cite{gomez96a}
+
+\end_inset
+
+ has 
+\begin_inset Formula $(B-V) = 0.7397$
+\end_inset
+
+. This value is closer than any of the spectrum provided by 
+\begin_inset LatexCommand \cite{turatto96b}
+
+\end_inset
+
+ which all fall within the range 
+\begin_inset Formula $1.1059 > (B-V) > 0.9323$
+\end_inset
+
+. Therefore the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{gomez96a}
+\end_layout
+
+\end_inset
+
+ spectrum is the one used for SN1991bg in our analysis.
+\end_layout
+
+\begin_layout Standard
+
+SN1991T had no spectrum near maximum, but we use a de-extinction-corrected version of the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citeauthor{nugent02a}
+\end_layout
+
+\end_inset
+
+ template at maximum in place of an observed spectrum. 
+\end_layout
+
+\end_body
+\end_document

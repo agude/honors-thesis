@@ -1,0 +1,63 @@
+\documentclass[11pt,preprint]{aastex}
+\pagestyle{myheadings}
+\usepackage{graphicx}
+
+\input{../../papers/00_bibdatabase/astromacro}
+% Macro for Paragraph Outlines
+\input{../../papers/00_bibdatabase/outlinemacro}
+
+%% comment out either draft true or false
+\newboolean{draft}
+\setboolean{draft}{true}
+%\setboolean{draft}{false}
+
+% comment out \draftmodep line to remove all commnts and notes from
+% manuscript
+%\draftmodeptrue
+
+\begin{document}
+
+%\NOTE{Outline}
+%\NS{test}
+
+%Memo:
+%\begin{itemize}
+%\item To do: Refine Outlines
+%\end{itemize}
+
+% This is for our note
+%\KD{Please check}
+%\KB{Please test}
+\title{Spectral Study of Twenty-Three Type Ia Supernovae Using Principal Component Analysis}
+\author{Alexander Erling Gude}
+
+\begin{abstract}
+We explore the diversity of type Ia supernovae near maximum light in the B band. We use a principal component analysis on twenty-three well observed type Ia supernovae in order to find a compact, numeric description for diversity. We find that the first component -- which mainly controls color -- accounts for 76\% of diversity in the sample, and that by using only five eigenvectors we can account for 95.8\% of diversity. We explore color diversity and find that very few of the supernovae follow a Cardelli Law for $E(B-V)$. We use the weights calculated for each of the supernovae to devise a method to lower despersion of type Ia supernovae around the Hubble line using only a single spectrum for each supernova, removing the need for multiband light curves.
+%We a use principal component analysis of 23 supernova spectra within 3 days of maximum light in the B band in an effort to account for intrinsic diversity of type Ia supernova. We find that with only five eigenvectors we can account for 95.8\% of diversity within our sample. We further find that our first eigenvector correlates closely to color, although it has spectral absorption and emission features that are not expected if color is primarily due to extinction. We plot the normalized weights of our spectra and find that very few lie along the vector predicted by Cardelli like dust. We further investigate the assumption that color is caused by extinction by attempting to match Hsiao's template to our supernova using Cardelli's law and find it does an inadequate job of matching the data.
+\end{abstract}
+
+%\outlinestart{draft}
+%\input{section_abstract}
+\input{section_intro}
+\input{section_supernovae_intro}
+\input{section_supernovae_spectra}
+\input{section_pca}
+%\input{section_a}
+%\input{section_b}
+%\input{section_c}
+\input{section_data}
+\input{section_analysis}
+\input{section_conclusion}
+\input{section_ackkno}
+
+%\outlineend{draft}
+
+% Bibliography
+\clearpage % Dump all charts BEFORE refs
+\bibliographystyle{../../papers/00_bibdatabase/apj}
+\bibliography{../../papers/00_bibdatabase/archive}
+
+% Figures
+\input{section_fourfigures}
+
+\end{document}

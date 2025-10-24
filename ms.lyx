@@ -1,0 +1,521 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\begin_preamble
+
+
+
+
+\input{../../papers/00_bibdatabase/astromacro}
+% Macro for Paragraph Outlines
+\input{../../papers/00_bibdatabase/outlinemacro}
+
+%% comment out either draft true or false
+\newboolean{draft}
+\setboolean{draft}{true}
+%\setboolean{draft}{false}
+
+% comment out \draftmodep line to remove all commnts and notes from
+% manuscript
+%\draftmodeptrue
+
+
+\end_preamble
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+NOTE{Outline}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+NS{test}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Memo:
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{itemize}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+item To do: Refine Outlines
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{itemize}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% This is for our note
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+KD{Please check}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+KB{Please test}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+Spectral Study of Twenty-Three Type Ia Supernovae Using Principal Component Analysis
+\end_layout
+
+\begin_layout Author
+
+Alexander Erling Gude
+\end_layout
+
+\begin_layout Abstract
+
+We explore the diversity of type Ia supernovae near maximum light in the B band. We use a principal component analysis on twenty-three well observed type Ia supernovae in order to find a compact, numeric description for diversity. We find that the first component -- which mainly controls color -- accounts for 76% of diversity in the sample, and that by using only five eigenvectors we can account for 95.8% of diversity. We explore color diversity and find that very few of the supernovae follow a Cardelli Law for 
+\begin_inset Formula $E(B-V)$
+\end_inset
+
+. We use the weights calculated for each of the supernovae to devise a method to lower despersion of type Ia supernovae around the Hubble line using only a single spectrum for each supernova, removing the need for multiband light curves. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%We a use principal component analysis of 23 supernova spectra within 3 days of maximum light in the B band in an effort to account for intrinsic diversity of type Ia supernova. We find that with only five eigenvectors we can account for 95.8
+\backslash
+% of diversity within our sample. We further find that our first eigenvector correlates closely to color, although it has spectral absorption and emission features that are not expected if color is primarily due to extinction. We plot the normalized weights of our spectra and find that very few lie along the vector predicted by Cardelli like dust. We further investigate the assumption that color is caused by extinction by attempting to match Hsiao's template to our supernova using Cardelli's law and find it does an inadequate job of matching the data.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+outlinestart{draft}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+input{section_abstract}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Include \input{section_intro.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_supernovae_intro.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_supernovae_spectra.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_pca.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+input{section_a}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+input{section_b}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+input{section_c}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Include \input{section_data.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_analysis.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_conclusion.lyx}
+preview false
+
+\end_inset
+
+ 
+\begin_inset Include \input{section_ackkno.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+outlineend{draft}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Bibliography
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\clearpage
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Dump all charts BEFORE refs
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+bibliographystyle{../../papers/00_bibdatabase/apj}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset LatexCommand \bibtex[../../papers/00_bibdatabase/apj]{../../papers/00_bibdatabase/archive}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Figures
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Include \input{section_fourfigures.lyx}
+preview false
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

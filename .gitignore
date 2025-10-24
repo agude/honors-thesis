@@ -1,0 +1,15 @@
+# LaTeX generated files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+
+# Compiled documents
+*.pdf
+*.ps
+
+# Other
+.DS_Store
+*~

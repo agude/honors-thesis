@@ -1,0 +1,73 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass aastex
+\options preprint
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 11
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle myheadings
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+In the past ten years observations of type Ia supernovae have pointed to a universe that is not only expanding but accelerating 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citep{riess98a,perlmutter99a}
+\end_layout
+
+\end_inset
+
+. Dark energy has been proposed as the cause, but very little is known about its exact form. Type Ia supernovae have been leading the study of dark energy since its discovery. Recent programs have yielded large data sets of spectra and light curves out to 
+\begin_inset Formula $z > 1$
+\end_inset
+
+, and future programs will bring in even more data. As the total amount of data increase, programs are starting to become limited more by systematic errors than statistical error. We explore methods of reducing these errors using principal component analysis (PCA).
+\end_layout
+
+\begin_layout Standard
+
+We perform a PCA on twenty-three high quality supernova spectra, twenty-one of which are backed by five band light curves, to come up with an empirical description of the variation of type Ia supernova spectra near maximum. PCA is the ideal tool to use for this analysis because it will allow a quantitative classification of supernovae and it will allow correlations to be found between spectral features. PCA will also allow quick analysis of large data sets, making it an excellent tool to prepare for future surveys. 
+\end_layout
+
+\end_body
+\end_document
